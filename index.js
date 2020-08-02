@@ -15,7 +15,7 @@ const PORT = 4000;
 // });
 
 app.get("/", (req, res) => {
-  res.json("I love docker!");
+  res.json(`${process.env.MESSAGE}. I love docker!`);
 });
 
 app.listen(PORT, () => {
