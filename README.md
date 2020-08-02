@@ -10,7 +10,6 @@ There are two ways you can use this app:
 
     docker build -t my-image .
     docker run -p 4000:4000 --name my-app -d my-image
-    docker ps
 
 ### 2. Just use docker-compose
 
